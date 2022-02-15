@@ -1,0 +1,14 @@
+name: ColorfulNames
+main: ninjananas.mc.ColorfulNames.Plugin
+version: 1.0
+api-version: 1.18
+permissions:
+ colorfulnames.changenamecolor:
+  default: true
+commands:
+ changenamecolor:
+  description: Change your name color
+  usage: /changenamecolor <color>
+  aliases: [namecolor]
+  permission: colorfulnames.changenamecolor
+  permission-message: You can't use this command !
